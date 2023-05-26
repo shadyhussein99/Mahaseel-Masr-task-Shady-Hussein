@@ -7,7 +7,7 @@ import Footer from "./components/Footer"
 
 function App() {
 
-  const [displaySideBar, setDisplaySideBar] = useState(true)
+  const [displaySideBar, setDisplaySideBar] = useState(false)
 
   useEffect(() => {
     const handleResize = () => {
