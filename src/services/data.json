@@ -1,0 +1,144 @@
+{
+    "products": [
+        {
+            "image": "https://images.tridge.com/200x200/image/original/9f/63/d9/9f63d965a26c8485699ca4f0b1ef1f885afe8cf1.jpg",
+            "type": "Rice",
+            "description": "Oryza sativa, Рис, 大米, Riz, 쌀, Arroz, Rice"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/7f/cf/4a/7fcf4ada7a1c44addfea15270222f394997bad84.jpg",
+            "type": "Dried Common Bean",
+            "description": "Phaseolus vulgaris, Фасоль обыкновенная, 菜豆, Haricot commun, 일반 콩, Frijol común (judía), Common Bean, Field Bean, Pop Bean, Flageolet Bean, Pole Bean, Navy Bean, Haricot Bean, Bush Bean, Green Bean, Garden Bean, String Bean, Snap Bean, Runner Bean, French Bean"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/91/a4/15/91a41569ed9068351c5c5dbd28de9634d47e1904.jpg",
+            "type": "Maize (Corn)",
+            "description": "Zea Mays, Маис (кукуруза), 玉米, Maïs, 옥수수, Maíz, Maize (Corn), Corn, Maize"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/f1/fe/4b/f1fe4b262cfebbc0017cc47ff6d31f7f6403a3e0.jpg",
+            "type": "Wheat",
+            "description": "Triticum aestivum, Пшеница, 小麦, Blé, 소맥, Trigo, Wheat"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/72/86/b1/7286b1b1397fb5f2cead0a481435a58e31bd72d3.jpg",
+            "type": "Barley",
+            "description": "Hordeum vulgare, Ячмень, 大麦, Orge, 보리, Cebada, Barley"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/ce/11/40/ce1140206e339987a5353344aef5cd83464ffaad.jpg",
+            "type": "Dried Mung Bean",
+            "description": "Vigna radiata, 绿豆, Haricot mungo, Soya verde, Mung Bean, Moog Dal, Moong Dal, Mungbean, Green Gram, Mung Dal"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/cc/8f/af/cc8faf74f5844cd125151bcb82c3c5efb7ab0cd0.jpg",
+            "type": "Dried Adzuki Bean",
+            "description": "Vigna angularis, Бобы адзуки, 红豆, Haricot Azuki, 팥, Frijol (judía) adzuki, Adzuki Bean, Red Mung Bean, Aduki Bean, Azuki Bean"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/95/aa/98/95aa9860ebd765f5743100525b85414a36215aee.jpg",
+            "type": "Millet",
+            "description": "Pennisetum glaucum, Просо, 小米, 밀레, Mijo, Millet"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/0d/a3/89/0da389af988f9a193f852db9c26a6e10d2b20bbc.jpg",
+            "type": "Dried Chickpea",
+            "description": "Cicer arietinum, Нут, 鹰嘴豆, Pois chiches, 병아리콩, Garbanzo, Chickpea, Chick Pea, Garbanzo Bean"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/dc/e1/3c/dce13c2fe6e41f03d53587354b28a76734cbeb99.jpg",
+            "type": "Dried Lentil",
+            "description": "Lens culinaris, Чечевица, 兵豆, Lentilles, 렌틸, Lenteja, Lentil"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/f3/25/b1/f325b1b404c8d7c7b328bb8aef514751b39fe579.jpg",
+            "type": "Sorghum",
+            "description": "Сорго, 高粱, Sorgho, 수수, Sorgo, Sorghum"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/0e/2e/6b/0e2e6b471f8be0139af1cf9e688797aca0b990cb.jpg",
+            "type": "Rye",
+            "description": "Secale cereale, Рожь, 黑麦, Seigle, 호밀, Centeno, Rye"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/5c/86/84/5c8684f6684d180c214ebcbc791f9cdd9b27448f.jpg",
+            "type": "Wheat Flour",
+            "description": "Пшеничная мука, 小麦面粉, Farine de blé, 밀가루, Harina de trigo, Wheat Flour"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/10/1d/e9/101de9738ea5df419a1e93cde0cdb581e0ee54fb.jpg",
+            "type": "Dried Black Gram Bean",
+            "description": "Vigna mungo, Урд, 黑吉豆, Pois chiche noir, 흑녹두, Black Gram Bean, Black Matpe, Urad Dal"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/f2/f0/1c/f2f01cec9bc202ef3108fe8fd976dfdfa3f4577b.jpg",
+            "type": "Soybean",
+            "description": "Glycine max, Соевые бобы, 大豆, Soja, 대두, Soya, Soybean, Soya bean"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/59/8b/89/598b89c885f806c5fcc712b83b10c7065618e092.jpg",
+            "type": "Dried Cowpea",
+            "description": "Vigna unguiculata, Cream Peas, Коровий горох, 豇豆, Niébé, 동부, Caupí (frijol chino, chícharo salvaje), Cowpea, Black Eyed Pea"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/92/3f/5a/923f5a8c72a4c50d705f2baed3c22456664cad6e.jpg",
+            "type": "Oats",
+            "description": "Avena sativa, Овес, 燕麦, Avoine, 귀리, Oats"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/1b/d3/11/1bd3113d7aaa8041257c9ef0ded2dba736327804.jpg",
+            "type": "Yam Bean",
+            "description": "Pachyrhizus erosus, Хикама, 豆薯, Pois de terre, 얌콩, Jícama, Yam Bean"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/c3/9f/ce/c39fce9441c31049149ef5dd28f81ff48e8ce420.jpg",
+            "type": "Cassava Starch",
+            "description": "Маниоковый крахмал, 木薯淀粉, Amidon de manioc, 카사바 전분, Fécula de yuca (mandioca), Cassava Starch, Tapioca Starch"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/87/e0/e9/87e0e9a5cc89b8ce032519f9c72ad48061cdc7ee.jpg",
+            "type": "Lima Bean",
+            "description": "Phaseolus lunatus, 利马豆, 리마콩, Haba verde, Lima Bean"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/03/0b/79/030b790ca4783fd0ce29ed40c8b7dd45dcc65a50.jpg",
+            "type": "Velvet Bean",
+            "description": "Mucuna pruriens, Бархатный боб, 藜豆, Fève de velours, 벨벳콩, Frijol de terciopelo, Velvet Bean"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/35/6b/3d/356b3d799a8960525b12aeaf9bcc5d62ac045064.jpg",
+            "type": "Dried Broad Bean",
+            "description": "Vicia faba, Боб садовый, 蚕豆, Fève, 브로드빈, Habas, Broad Bean, Faba Bean"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/2f/30/68/2f306822ccde4f6df2f03c5473bf764abdfd2606.jpg",
+            "type": "Maize (Corn) Flour",
+            "description": "Маисовая (кукурузная) мука, 玉米面粉, Farine de maïs, 옥수수가루, Harina de maíz, Maize (Corn) Flour, Corn Flour, Maize Flour"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/77/c6/3d/77c63d79fbb263b179e0e6d5e6696b0c08039fda.jpg",
+            "type": "Moth Bean",
+            "description": "Vigna aconitifolia, Вигна борцелистная, 乌头叶豇豆, Haricot papillon, 나방콩, Frijol makusta, Moth Bean, Turkish gram, Mat bean"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/5a/4a/08/5a4a0889205e9438dccb7febc0c5ff80e92859dc.jpg",
+            "type": "Dried Pigeon Pea",
+            "description": "Cajanus cajan, Голубиный горох, 木豆, Pois d'Angole, 비둘기콩, Gandul (frijol de palo), Pigeon Pea, Arhar dal, Toor Dal"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/6b/ab/c7/6babc743208dc45895bd2a4914933e515fb354ca.jpg",
+            "type": "Fresh Common Pea",
+            "description": "Зеленый горошек, 青豌豆, Pois verts, 녹두, Arveja (chícharo, guisante), Green Pea, Blue Pea, Hari Matar, Matar"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/52/b1/a1/52b1a10bb352ff06a2912703c6cd6e8a25fb4825.jpg",
+            "type": "Hyacinth Bean",
+            "description": "Lablab purpureus, Гиацинтовые бобы, 扁豆, Jacinthe, 제비콩, Frijol caballero, Hyacinth Bean"
+        },
+        {
+            "image": "https://images.tridge.com/200x200/image/original/9a/69/9f/9a699fadfb7c882b98f7f6cee8664c457ed73e88.jpg",
+            "type": "Rye Flour",
+            "description": "Ржаная мука, 黑麦面粉, Farine de seigle, 호밀가루, Harina de centeno, Rye Flour"
+        }
+    ]
+}
