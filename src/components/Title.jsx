@@ -10,7 +10,7 @@ function Title(props) {
         <hr />
 
         <div className="flex mt-7 items-center">
-            <div onClick={() => props.setDisplaySideBar(true)} className="flex justify-center items-center border border-gray-300 w-8 h-8 rounded-full cursor-pointer hover:bg-gray-200">
+            <div className="flex justify-center items-center border border-gray-300 w-8 h-8 rounded-full cursor-pointer hover:bg-gray-200 md:hidden">
                 <i className="fa-solid fa-bars-staggered"></i>
             </div>
             

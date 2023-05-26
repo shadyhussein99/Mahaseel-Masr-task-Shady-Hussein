@@ -11,7 +11,7 @@ function Navbar() {
 
     const [navMenuImSmallScreens, setNavMenuInSmallScreens] = useState(false)
 
-    return <nav className="border-b flex py-3 items-center">
+    return <nav className=" bg-white border-b flex py-3 items-center sticky top-0 z-10">
 
         <img className=" w-24 h-6 ml-3" src="https://cdn-new.tridge.com/assets/S27EOULS.svg" alt="Tridge Logo" />
 

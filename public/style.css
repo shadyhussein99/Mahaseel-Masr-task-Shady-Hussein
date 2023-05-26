@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.footer-section {
+    @apply mt-10 md:col-span-1
+}
+
+.footer-header {
+    @apply font-semibold
+}
+
+.footer-paragraph {
+    @apply text-sm mt-3 text-gray-800 hover:underline
+}
+
+.footer-img {
+    @apply mr-2
+}

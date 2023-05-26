@@ -27,7 +27,6 @@ function Products() {
             </div>
         }
 
-        <hr className="col-span-2 mt-10" />
     </section>
 }
 
