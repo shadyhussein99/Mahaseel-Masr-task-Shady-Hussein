@@ -102,7 +102,7 @@ function Navbar() {
         {companyLinks &&
             <section onMouseLeave={() => setCompanyLinks(false)}>
             <Link to="#"><p>About Us</p></Link>
-            <Link to="#"><p>Careers <i className="fa-solid fa-location-arrow fa-sm"></i> We're hiring!</p></Link>
+            <Link to="#"><p>Careers <i className="fa-solid fa-location-arrow fa-sm"></i> <span>We're hiring!</span></p></Link>
             <Link to="#"><p>Blog <i className="fa-solid fa-location-arrow fa-sm"></i></p></Link>
             <Link to="#"><p>Contact Us <i className="fa-solid fa-location-arrow fa-sm"></i></p></Link>
             </section>
