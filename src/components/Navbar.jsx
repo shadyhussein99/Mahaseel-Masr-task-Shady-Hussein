@@ -9,9 +9,13 @@ function Navbar() {
     const [resourcesLinks, setResourcesLinks] = useState(false)
     const [companyLinks, setCompanyLinks] = useState(false)
 
-    return <nav>
-        <img className=" w-24 h-6" src="https://cdn-new.tridge.com/assets/S27EOULS.svg" alt="Tridge Logo" />
-        <div>
+    const [navMenuImSmallScreens, setNavMenuInSmallScreens] = useState(false)
+
+    return <nav className="border-b flex py-3 items-center">
+
+        <img className=" w-24 h-6 ml-3" src="https://cdn-new.tridge.com/assets/S27EOULS.svg" alt="Tridge Logo" />
+
+        <div className="hidden">
             <span
                 onMouseEnter={() => { setServicesLinks(true), setResourcesLinks(false), setCompanyLinks(false) }}
             >Services {servicesLinks ?
@@ -34,10 +38,23 @@ function Navbar() {
             </span>
         </div>
 
-        <div>
-            <i className="fa-solid fa-magnifying-glass"></i>
-            <button>Sign Up</button>
+        <div className=" ml-auto mr-7">
+            <i className="fa-solid fa-magnifying-glass fa-lg ml-4 cursor-pointer"></i>
+            <button className="ml-4 bg-black text-white font-semibold px-5 py-2 rounded-3xl hover:bg-slate-800">Sign In</button>
+
+            {navMenuImSmallScreens ?
+                <div className=" bg-white fixed top-0 left-0 z-10 w-screen h-screen">
+                    <div className=" flex justify-end mr-10 mt-6">
+                        <i onClick={() => setNavMenuInSmallScreens(false)} className="fa-solid fa-xmark fa-lg cursor-pointer"></i>
+                    </div>
+                    <hr  className="mt-8"/>
+                    <Link to="#"><p className=" text-2xl font-bold ml-8 my-4">Services <i className="fa-solid fa-chevron-right text-base"></i></p></Link>
+                    <Link to="#"><p className=" text-2xl font-bold ml-8 my-4">Resources <i className="fa-solid fa-chevron-right text-base"></i></p></Link>
+                    <Link to="#"><p className=" text-2xl font-bold ml-8 my-4">Company <i className="fa-solid fa-chevron-right text-base"></i></p></Link>
+                </div> :
+                <i onClick={() => setNavMenuInSmallScreens(true)} className="fa-solid fa-bars fa-lg ml-4 cursor-pointer"></i>}
         </div>
+
 
         {/* Services Menu */}
 
@@ -88,12 +105,12 @@ function Navbar() {
 
         {resourcesLinks &&
             <section onMouseLeave={() => setResourcesLinks(false)}>
-               <Link to="#"><p>Global Price Trends</p></Link>
-               <Link to="#"><p>Webinars</p></Link>
-               <Link to="#"><p>White Papers</p></Link>
-               <Link to="#"><p>Data Coverage</p></Link>
-               <Link to="#"><p>Advertise with Tridge</p></Link>
-               <Link to="#"><p>Sourcing Requests Quota</p></Link>
+                <Link to="#"><p>Global Price Trends</p></Link>
+                <Link to="#"><p>Webinars</p></Link>
+                <Link to="#"><p>White Papers</p></Link>
+                <Link to="#"><p>Data Coverage</p></Link>
+                <Link to="#"><p>Advertise with Tridge</p></Link>
+                <Link to="#"><p>Sourcing Requests Quota</p></Link>
             </section>
         }
 
@@ -101,14 +118,13 @@ function Navbar() {
 
         {companyLinks &&
             <section onMouseLeave={() => setCompanyLinks(false)}>
-            <Link to="#"><p>About Us</p></Link>
-            <Link to="#"><p>Careers <i className="fa-solid fa-location-arrow fa-sm"></i> <span>We're hiring!</span></p></Link>
-            <Link to="#"><p>Blog <i className="fa-solid fa-location-arrow fa-sm"></i></p></Link>
-            <Link to="#"><p>Contact Us <i className="fa-solid fa-location-arrow fa-sm"></i></p></Link>
+                <Link to="#"><p>About Us</p></Link>
+                <Link to="#"><p>Careers <i className="fa-solid fa-location-arrow fa-sm"></i> <span>We're hiring!</span></p></Link>
+                <Link to="#"><p>Blog <i className="fa-solid fa-location-arrow fa-sm"></i></p></Link>
+                <Link to="#"><p>Contact Us <i className="fa-solid fa-location-arrow fa-sm"></i></p></Link>
             </section>
         }
 
-        <hr />
     </nav>
 }
 
