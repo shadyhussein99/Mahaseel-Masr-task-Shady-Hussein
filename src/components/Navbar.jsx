@@ -12,6 +12,8 @@ function Navbar() {
     const [showSearchInput, setShowSearchInput] = useState(false)   // Show search input on clicking the search icon
     const [navMenuImSmallScreens, setNavMenuInSmallScreens] = useState(false) // Show nav elements on clicking the menu icon in small screens
 
+    const [searchInput, setSearchInput] = useState("")
+
     return <nav className=" bg-white border-b flex py-3 items-center sticky top-0 z-10">
 
         <img className=" w-24 h-6 ml-3" src="https://cdn-new.tridge.com/assets/S27EOULS.svg" alt="Tridge Logo" />
@@ -56,8 +58,8 @@ function Navbar() {
                     </div>
                     <hr />
                     <div className="relative">
-                    <i className="fa-solid fa-magnifying-glass text-gray-400 absolute top-12 left-7"></i>
-                    <input className="w-3/4 mx-20 border mt-9 py-2 px-10 rounded-3xl ml-3 focus:outline-blue-600" placeholder="Search anything in food and agriculture" />
+                        <i className="fa-solid fa-magnifying-glass text-gray-400 absolute top-12 left-7"></i>
+                        <input className="w-3/4 mx-20 border mt-9 py-2 px-10 rounded-3xl ml-3 focus:outline-blue-600" onChange={(e) => setSearchInput(e.target.value)} value={searchInput} placeholder="Search anything in food and agriculture" />
                     </div>
                 </div>
 
