@@ -9,7 +9,7 @@ function Products() {
     const [productsNumber, setProductsNumber] = useState(20)   // Number of initially displayed products
     const displayedProducts = totalProducts.slice(0, productsNumber)
 
-    return <section className="mx-4 mt-16 grid grid-cols-2">
+    return <section className="mx-4 mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {displayedProducts.map((value, index) => {
             return <SingleProduct
                 key={index}

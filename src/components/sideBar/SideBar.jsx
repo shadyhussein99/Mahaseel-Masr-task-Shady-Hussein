@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom"
 import SideBarCategories from "./SideBarCategories"
 
-function SideBar() {
+function SideBar(props) {
+    {/* md:mx-4 md:mt-16 md:px-5 md:py-10 md:bg-gray-100  */ }
+    return <aside className={`${props.displaySidebar ? "block" : "hidden"} fixed top-0 left-0 z-20 w-72 h-screen px-5 py-10 overflow-y-auto bg-gray-100 border-r md:block md:relative md:w-auto md:h-auto md:mx-4 md:mt-16 md:border-r-0`}>
 
-    return <aside className="md:mx-4 md:mt-16 md:px-5 md:py-10 md:bg-gray-100 ">
+        <div className="flex justify-end items-center md:hidden">
+            <i onClick={() => props.setDisplaySidebar(false)} className="fa-solid fa-xmark fa-lg cursor-pointer mb-5"></i>
+        </div>
+
         <SideBarCategories
             category="Seafood"
             number="224"

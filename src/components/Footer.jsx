@@ -6,7 +6,7 @@ function Footer() {
 
     return <footer className="mx-4 mb-14">
         <hr className="mt-10" />
-        <section className="md:grid md:grid-cols-3">
+        <section className="md:grid md:grid-cols-3 lg:grid-cols-5">
             <section className="footer-section">
                 <h3 className="footer-header">SOURCING HUB</h3>
                 <Link to="#"><p className="footer-paragraph">Introduction</p></Link>
@@ -56,12 +56,12 @@ function Footer() {
         </section>
 
         <section className="md:flex md:justify-between md:items-end">
-            <div className="mt-16 text-gray-500 text-sm">
-                <p className="mb-2">ⓒ {year} Tridge</p>
-                <p>
-                    <Link to="#" className="block underline mt-6 w-fit hover:bg-gray-200">Privacy</Link>
-                    <Link to="#" className="block underline mt-6 w-fit hover:bg-gray-200">Terms</Link>
-                    <Link to="#" className="block underline mt-6 w-fit hover:bg-gray-200">Sitemap</Link>
+            <div className="mt-16 text-gray-500 text-sm lg:flex">
+                <p className="mb-2 lg:relative lg:top-6">ⓒ {year} Tridge</p>
+                <p className="lg:flex lg:items-center lg:ml-5">
+                    <Link to="#" className="block underline mt-6 w-fit hover:bg-gray-200 lg:ml-3">Privacy</Link>
+                    <Link to="#" className="block underline mt-6 w-fit hover:bg-gray-200 lg:ml-3">Terms</Link>
+                    <Link to="#" className="block underline mt-6 w-fit hover:bg-gray-200 lg:ml-3">Sitemap</Link>
                 </p>
             </div>
 

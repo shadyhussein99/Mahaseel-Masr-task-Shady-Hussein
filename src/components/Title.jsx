@@ -1,17 +1,18 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 function Title(props) {
 
     const [inputChange, setInputChange] = useState("")
 
     return <header className="mx-4 mt-12">
-        <p className=" text-gray-500"><i className="fa-solid fa-chevron-left fa-xs"></i> Back to Product Browser</p>
+        <Link to="#"><p className=" text-gray-500"><i className="fa-solid fa-chevron-left fa-xs"></i> Back to Product Browser</p></Link>
         <h1 className=" text-2xl font-semibold text-center mt-8 mb-4">Browse Products by Category</h1>
         <hr />
 
         <div className="flex mt-7 items-center">
             <div className="flex justify-center items-center border border-gray-300 w-8 h-8 rounded-full cursor-pointer hover:bg-gray-200 md:hidden">
-                <i className="fa-solid fa-bars-staggered"></i>
+                <i onClick={() => props.setDisplaySidebar(true)} className="fa-solid fa-bars-staggered"></i>
             </div>
             
             <div className=" relative">

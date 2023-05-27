@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom"
 
 function SingleProduct(props) {
-    return <section className="mb-16">
+    return <section className="mb-16 mx-2">
         <Link to="#">
             <div className="flex justify-center">
                 <img className="w-32 h-32" src={props.image} alt="Product image" />
