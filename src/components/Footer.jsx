@@ -4,7 +4,7 @@ function Footer() {
 
     const year = new Date().getFullYear()
 
-    return <footer className="mx-4 mb-14">
+    return <footer className="mx-4 mb-14 lg:w-3/4 lg:mx-auto">
         <hr className="mt-10" />
         <section className="md:grid md:grid-cols-3 lg:grid-cols-5">
             <section className="footer-section">

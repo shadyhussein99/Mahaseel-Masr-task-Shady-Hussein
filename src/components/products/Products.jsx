@@ -22,7 +22,7 @@ function Products() {
 
         {/* To hide the (Show More) button when all products are displayed */}
         {displayedProducts.length !== totalProducts.length &&
-            <div className=" flex justify-center col-span-2">
+            <div className=" flex justify-center col-span-2 md:col-span-3 lg:col-span-4">
                 <button onClick={() => { setProductsNumber(productsNumber + 4) }} className="font-semibold px-5 py-2 border border-gray-300 rounded-3xl hover:bg-gray-200">Show More</button>
             </div>
         }

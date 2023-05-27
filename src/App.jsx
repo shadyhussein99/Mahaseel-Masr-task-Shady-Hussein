@@ -15,7 +15,7 @@ function App() {
       <Title 
         setDisplaySidebar={setDisplaySidebar}
       />
-      <div className="md:grid grid-cols-3">
+      <div className="md:grid grid-cols-3 lg:w-3/4 lg:mx-auto">
         <div className="md:col-span-1">
           <SideBar className=""
           displaySidebar={displaySidebar}
